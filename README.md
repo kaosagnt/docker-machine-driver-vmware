@@ -1,3 +1,14 @@
+# ⚠️This is a fork of Docker Machine VMware Driver ⚠
+
+This is a fork of Docker Machine VMware Driver maintained for [Toolbox2docker](https://github.com/kaosagnt/toolbox2docker).
+
+Changes include:
+- updated to compile against GO 1.21.x and later.
+- Uses github\kaosagnt\docker-machine with updates and changes.
+- Inital support to build inside a Docker Container.
+
+TODO: fix documentation and Docker build support
+
 # Docker Machine VMware Driver
 
 Create Docker machines locally on VMware [Fusion](https://www.vmware.com/products/fusion)
