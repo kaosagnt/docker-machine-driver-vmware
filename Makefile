@@ -1,5 +1,4 @@
-OUT_DIR := out
-PROG := docker-machine-driver-vmware
+include Makefile.inc
 
 GOOS ?= $(shell go env GOOS)
 GOARCH ?= $(shell go env GOARCH)
@@ -10,7 +9,8 @@ endif
 
 .PHONY: build
 build:
-	go build -o $(OUT_DIR)/$(PROG)$(BIN_SUFFIX) ./
+	go mod tidy
+	go build -o $(OUT_DIR)/$(PROG)-$(GOOS)-$(GOARCH)$(BIN_SUFFIX) ./
 
 .PHONY: dep
 dep:

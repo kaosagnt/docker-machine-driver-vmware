@@ -1,6 +1,7 @@
 #############################
 # Compiled source           #
 #############################
+bin/
 dist/
 out/
 /docker-machine-driver-vmware
