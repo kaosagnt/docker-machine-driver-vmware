@@ -1,6 +1,7 @@
 # ⚠️This is a fork of Docker Machine VMware Driver ⚠
 
-This is a fork of Docker Machine VMware Driver maintained for [Toolbox2docker](https://github.com/kaosagnt/toolbox2docker).
+This is a fork of [Docker Machine VMware Driver](https://github.com/machine-drivers/docker-machine-driver-vmware) 
+maintained for [Toolbox2docker](https://github.com/kaosagnt/toolbox2docker).
 
 Changes include:
 - updated to compile against GO 1.21.x and later.
