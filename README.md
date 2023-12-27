@@ -78,7 +78,7 @@ $ docker-machine create --driver=vmware default
 | `--vmware-configdrive-url` | VMWARE_CONFIGDRIVE_URL | -                        |
 | `--vmware-cpu-count`       | VMWARE_CPU_COUNT       | `1`                      |
 | `--vmware-disk-size`       | VMWARE_DISK_SIZE       | `20000`                  |
-| `--vmware-memory-size`     | VMWARE_MEMORY_SIZE     | `1024`                   |
+| `--vmware-memory-size`     | VMWARE_MEMORY_SIZE     | `2048`                   |
 | `--vmware-network-type`    | VMWARE_NETWORK_TYPE    | `nat`                    |
 | `--vmware-no-share`        | VMWARE_NO_SHARE        | -                        |
 | `--vmware-ssh-password`    | VMWARE_SSH_PASSWORD    | `tcuser`                 |

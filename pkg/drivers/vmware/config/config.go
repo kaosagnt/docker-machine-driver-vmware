@@ -30,7 +30,7 @@ const (
 	defaultSSHPass     = "tcuser"
 	defaultDiskSize    = 20000
 	defaultCPU         = 1
-	defaultMemory      = 1024
+	defaultMemory      = 2048
 	defaultWaitIP      = 30000
 	defaultNetworkType = "nat"
 )
