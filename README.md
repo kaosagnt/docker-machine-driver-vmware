@@ -34,16 +34,8 @@ The Docker Machine VMware Driver is released under the [Apache License 2.0](http
 ### From a Release
 
 The latest version of the `docker-machine-driver-vmware` binary is available on the
-[GitHub Releases](https://github.com/machine-drivers/docker-machine-driver-vmware/releases) page.
+[GitHub Releases](https://github.com/kaosagnt/docker-machine-driver-vmware/releases) page.
 Download the binary that corresponds to your OS into a directory residing in your PATH.
-
-### From Homebrew
-
-The driver is available for easy installation via Homebrew on macOS.
-
-```shell
-$ brew install docker-machine-driver-vmware
-```
 
 ### From Source
 
@@ -54,7 +46,7 @@ For Windows, make sure `%GOPATH%\bin` is included in `%PATH%`.
 Run the following command:
 
 ```shell
-go get -u github.com/machine-drivers/docker-machine-driver-vmware
+go get -u github.com/kaosagnt/docker-machine-driver-vmware
 ```
 
 
