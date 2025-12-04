@@ -1,6 +1,6 @@
 module github.com/machine-drivers/docker-machine-driver-vmware
 
-go 1.24.10
+go 1.24.11
 
 require (
 	golang.org/x/crypto v0.38.0
