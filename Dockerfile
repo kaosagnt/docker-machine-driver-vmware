@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /go/src/github.com/kaosagnt
 
-ENV DM_VER=0.16.2-gitlab.43-t2d.22
+ENV DM_VER=0.16.2-gitlab.44-t2d.23
 
 RUN wget -O docker-machine.tgz \
 	"https://github.com/kaosagnt/docker-machine/archive/v${DM_VER}.tar.gz" \
